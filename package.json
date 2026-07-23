@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-wppapi",
+  "name": "@iproute/n8n-nodes-wppapi",
   "version": "0.1.0",
   "description": "n8n community node para a WPPAPI — envie WhatsApp (texto, imagem, arquivo) e valide números em fluxos n8n. API gerenciada, trial grátis em wpp-api.com",
   "keywords": [

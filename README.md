@@ -6,7 +6,7 @@ Community node do [n8n](https://n8n.io) para a [WPPAPI](https://wpp-api.com?utm_
 
 ## Instalação
 
-No n8n: **Settings → Community Nodes → Install** e informe `n8n-nodes-wppapi`.
+No n8n: **Settings → Community Nodes → Install** e informe `@iproute/n8n-nodes-wppapi`.
 
 ## Credenciais
 
