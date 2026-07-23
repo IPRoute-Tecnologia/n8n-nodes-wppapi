@@ -1,0 +1,47 @@
+{
+  "name": "n8n-nodes-wppapi",
+  "version": "0.1.0",
+  "description": "n8n community node para a WPPAPI — envie WhatsApp (texto, imagem, arquivo) e valide números em fluxos n8n. API gerenciada, trial grátis em wpp-api.com",
+  "keywords": [
+    "n8n-community-node-package",
+    "whatsapp",
+    "whatsapp-api",
+    "wppapi",
+    "automacao",
+    "chatbot"
+  ],
+  "license": "MIT",
+  "homepage": "https://wpp-api.com?utm_source=npm&utm_medium=n8n",
+  "author": "IPRoute Tecnologia <contato@wpp-api.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iproute-tecnologia/n8n-nodes-wppapi.git"
+  },
+  "engines": {
+    "node": ">=18.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/WppApiApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/WppApi/WppApi.node.js"
+    ]
+  },
+  "devDependencies": {
+    "n8n-workflow": "^1.82.0",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}
